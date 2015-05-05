@@ -1,0 +1,173 @@
+body {
+    padding-top: 30px !important;
+}
+
+#route-map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #121212;
+    border-radius: 6px;
+    margin-bottom: 20px !important;
+}
+
+
+#landing-map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #121212;
+    border-radius: 6px;
+}
+
+.navbar {
+    border-radius: 6px;
+}
+
+.jumbotron {
+    padding: 0px !important;
+}
+
+.panel {
+    border-radius: 6px !important;
+}
+
+.panel-heading {
+    background-color: #121212 !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    color: white !important;
+    width: 100%;
+}
+
+.panel-heading h3 {
+    font-weight: bold !important;
+}
+
+div.panel-body > * span {
+    font-size: 1em !important;
+    line-height: 2em !important;
+    background-color: white !important;
+}
+
+div.cms-text-plugin > h1 {
+    font-size: 2em !important;
+    background-color: white !important;
+}
+
+div#content {
+    margin-bottom: 5em;
+}
+
+img.olTileImage {
+     max-width: none;
+     border-radius: 0;
+     box-shadow: none;
+}
+
+.olControlLayerSwitcher {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.olControlLayerSwitcher .layersDiv{
+    border: 1px solid grey;
+    background-color: #222222 !important;
+    -moz-border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.maximizeDiv .olButton {
+    background-color: #222222 !important;
+    
+}
+
+.dataLbl {
+    display: none;
+}
+
+
+a {
+    color: #526325;
+    text-decoration: none;
+}
+
+div#navbar{
+   
+}
+
+div#list {
+    padding-left: 0px !important;
+}
+
+.list-group-item {
+  padding: 3px 0 0 3px !important;
+}
+
+div#list a {
+    text-decoration: none;
+}
+
+div#list a:hover {
+    color: purple;
+}
+
+#waypoint-image {
+    display: none;
+    max-width: 400px;
+    border: 1px solid lightgrey;
+}
+
+.glyphicon-heading {
+    font-size: 1.5em;
+    top: 8px;
+    color: #6b9430;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img#info {
+    width: 450px;
+    height: 314px;
+}
+
+
+
+.olControlAttribution {
+    background: none repeat scroll 0 0 white;
+    bottom: 0em !important;
+    display: block;
+    font-size: smaller;
+    padding: 0.2em;
+    position: absolute;
+}
+
+div#location {
+  font-size: small;
+}
+
+.div {
+    padding:10px;
+}
+
+div#detail-panel {
+    width: 100%;
+}
+
+#map, #detail-panel {
+    visibility: hidden;
+}
+
+#detail-panel-body {
+    display: none;
+}
+
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+
+
+
