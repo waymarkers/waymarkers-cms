@@ -59,3 +59,5 @@ target/
 # Komodo
 *.komodoproject
 
+# Django Settings
+settings_private.py
