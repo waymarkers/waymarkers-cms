@@ -189,6 +189,10 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = settings_private.DATABASES
+<<<<<<< HEAD
+=======
+
+>>>>>>> efac4f4b35c4d6f6678cafd3dfc1bbf850965f00
 
 # disable annoying djangocms warnings..
 LOGGING = {
