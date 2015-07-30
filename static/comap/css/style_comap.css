@@ -1,0 +1,472 @@
+/*
+@media (min-width: 1200px) {
+  .container {
+    width: auto;
+  }
+}
+*/
+
+/* containers */
+html, body {
+  font-family: Lato;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.container {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 0px !important;
+}
+
+.navbar-header {
+    padding-left: 15px;
+}
+
+#navbar {
+   width: 100%;
+}
+
+/* route and waypoint creation/update styles */
+
+#create-route, #update-route {
+    max-width: 960px;
+}
+
+#create-route-heading, #create-info-heading, #create-form-heading,
+#update-route-heading, #update-info-heading, #update-form-heading {
+    color: #526325;
+}
+
+#create-route-panel, #update-route-panel {
+    padding-top: 2em;
+}
+
+#create-form-panel, #update-form-panel {
+    width: 100%;
+    /*max-width: 960px;*/
+}
+
+#map-panel {
+    padding: 0px !important;
+}
+
+#create-info, #update-info {
+    display: none;
+    width: 100%;
+    max-width: 960px;
+}
+
+#create-link {
+    margin-bottom: 1.5em;
+}
+
+i[data-fv-icon-for="gpxfile"] {
+    display: none !important;
+}
+
+
+a, a.route-link {
+    color: #526325;
+    text-decoration: none;
+}
+
+
+div#title {
+    margin-left: 25px;
+}
+
+#description {
+    height: 100%;
+}
+
+div#list {
+    margin-right: 2em;
+    float: left;
+    width: 100%;
+}
+
+.list-group-item {
+  padding: 5px;
+}
+
+div#list a {
+    text-decoration: none;
+}
+
+div#list a:hover {
+    color: purple;
+}
+
+div#map {
+    width: 100%;
+    height: 40em;
+    float: left;
+    margin-top: 5em;
+    /*border: 1px solid lightgrey;*/
+    /*border-radius: 4px;*/
+    /*margin-bottom: 1.5em !important;*/
+}
+
+#landing-map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #121212;
+    border-radius: 6px;
+}
+
+#dialog-confirm {
+  display: none;
+}
+
+.ui-dialog {
+  z-index: 1000;
+}
+
+#editGpxForm {
+    display: none;
+}
+
+
+#waypoint-image {
+    display: none;
+    border: 1px solid lightgrey;
+    width: 100%;
+}
+
+
+
+
+.glyphicon-heading {
+    font-size: 2em;
+    top: 8px;
+    color: #6b9430;
+}
+
+.instructions {
+    margin-left: 2em;
+    border: 1px dashed lightgrey;
+    float: left;
+    width: 30%;
+    padding: 2em;
+}
+
+#gpxForm, #editGpxForm{
+    /*margin-left: 25px;*/
+}
+
+#form-select-owner {
+    display: none;
+}
+
+#create-route-panel {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img#info {
+    width: 450px;
+    height: 314px;
+}
+
+/* Edit page */
+
+
+div#edit {
+    border: 1px dashed lightgrey;
+    width: 55%;
+    float: left;
+    padding: 2em !important;
+    margin-right: 2em;
+}
+
+div#edit-waypoint {
+   
+}
+
+/*
+div#edit input {
+    border: 1px solid darkgrey;
+}
+*/
+
+div#edit-map {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 5em;
+    border: 1px dashed lightgrey;
+}
+
+div#edit-waypoint-map {
+    width: 100%;
+    height: 33em;
+    border:1px solid lightgrey;
+    border-radius: 4px;
+    margin-bottom: 15px !important;
+}
+
+input#the_geom, input#elevation {
+    width:1px;
+    height:1px;
+    float: right;
+}
+
+div#create-header {
+    width: 70%;
+}
+
+
+.olControlDrawFeature {
+    cursor: crosshair;
+}
+
+.olControlLayerSwitcher .layersDiv {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: #569400 !important;
+    border-radius: 4px;
+}
+
+.ui-progressbar, .ui-progressbar-value {
+    height: 6px !important;
+    width: 105% !important;
+}
+
+.ui-corner-all {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+.ui-widget-header {
+    background: #569400;
+    border: 1px solid #DDDDDD;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+ }
+ 
+
+
+.olControlAttribution {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0em !important;
+    display: block;
+    font-size: smaller;
+    padding: 0.2em;
+    position: absolute;
+}
+
+div#location {
+  font-size: 1em;
+  padding-top: 10px;
+}
+
+/*
+.div {
+    padding:10px;
+}
+*/
+#waypoints-map-panel, #routes-map-panel, #detail-panel {
+    visibility: hidden;
+}
+
+#detail-panel-body {
+    display: none;
+}
+
+#detail-panel {
+    width: 100%;
+    float: left;
+}
+
+.form-control:focus {
+    border-color: rgba(82,168,236,.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
+    box-shadow: 0 0 8px rgba(82,168,236,.6) !important;
+    background-color: #eee;
+}
+
+
+.btn-default {
+    background-color: red;
+}
+
+.form-control-feedback {
+    right: 1em;
+}
+
+li#logout {
+    float: right;
+    margin-right: 1em;
+}
+
+div#logout {
+    width: 35%;
+}
+
+.navbar-nav {
+    float: none !important;
+}
+
+
+/*
+div#heading, div#detail-heading {
+    color:#6b9430;
+}
+*/
+
+.panel-heading {
+    color: #6b9430 !important;
+}
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+#save {
+    
+}
+
+#fileupload {
+    margin-top: 25px;
+    color: #6B9430;
+}
+
+/* form submission dropzone */
+
+#dropzone {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid lightgrey;
+}
+
+#dropzone.in {
+    width: 100%;
+    height: 100%;
+    border: 4px dashed darkgrey;
+}
+
+#dropzone.hover {
+
+}
+
+#dropzone.fade {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+
+.fileupload-buttonbar {
+    margin-right: 0px !important;
+}
+
+tr.template-upload div.progress {
+    display: none;
+}
+
+button.start {
+    display: none;
+}
+
+button[data-toggle=popover] {
+    background:transparent;
+    border: none;
+    
+}
+
+#carousel {
+    display: none;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+#audio-panel, #video-panel {
+    margin: 10px 0 20px 0;
+}
+
+span.preview audio {
+    max-width: 160px;
+}
+
+span.preview video {
+    max-width: 160px;
+    max-height: 160px;
+}
+
+/* Slider - used for Volume bar and Seek bar */
+.vjs-default-skin .vjs-slider .vjs-play-progress {
+  /* background-color-with-alpha */
+  background-color: #6B9430 !important;
+  background-color: rgba(107, 148, 48, 0.9) !important;
+}
+
+.vjs-default-skin .vjs-volume-bar .vjs-volume-level {
+  /* background-color-with-alpha */
+  background-color: #6B9430 !important;
+  background-color: rgba(107, 148, 48, 0.9) !important;
+}
+
+
+.vjs-big-play-button {
+    background-color: rgba(107, 148, 48, 0.7) !important;
+}
+
+.table-responsive {
+    border: none !important;
+}
+
+pre.prettyprint {
+    margin-top: 10px;
+}
+
+#reset-map {
+    background: transparent;
+    font-size: 1.5em;
+    color: #6b9430;
+}
+
+li.list-group-item span {
+    color: white;
+}
+

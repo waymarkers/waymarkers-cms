@@ -7,7 +7,7 @@ https://docs.djangoproject.com/en/1.6/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.6/ref/settings/
 """
-import os
+import os, settings_private
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -181,24 +181,14 @@ CMS_TEMPLATES = (
     ('feature.html', 'Page with Feature'),
     ('landing.html', 'Landing Page'),
     ('routes.html', 'Routes Page'),
+    ('waypoints.html', 'Waypoints Page'),
 )
 
 CMS_PERMISSION = True
 
 CMS_PLACEHOLDER_CONF = {}
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'waymarkers',
-        'OPTIONS': {
-            'options': '-c search_path=cms,public'
-        },
-        'USER': 'gis',
-        'PASSWORD': '',
-    },
-}
-
+DATABASES = settings_private.DATABASES
 
 # disable annoying djangocms warnings..
 LOGGING = {

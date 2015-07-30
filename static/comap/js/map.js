@@ -1,8 +1,5 @@
 $ = jQuery
 
-
-$ = jQuery;
-
 $(document).ready(function() {
     routeApp = new RouteApp();
     routeApp.main();
