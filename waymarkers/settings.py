@@ -55,7 +55,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(DATA_DIR, 'media')
+MEDIA_ROOT = '/home/waymarkers/media'
 STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 
 STATICFILES_DIRS = (
@@ -189,10 +189,6 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = settings_private.DATABASES
-<<<<<<< HEAD
-=======
-
->>>>>>> efac4f4b35c4d6f6678cafd3dfc1bbf850965f00
 
 # disable annoying djangocms warnings..
 LOGGING = {

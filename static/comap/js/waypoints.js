@@ -283,7 +283,6 @@ var ListWaypointsApp = OpenLayers.Class({
                 $('#detail-panel-body').css('display','none');
                 var heading = '<h5>' + routeName + '</h5>';
                 $('#heading').html(heading);
-                $('#panel').html('<p>Here is a list of waypoints for the ' + routeName + ' route.</p>');
                 // add waypoints to the list..
                 $('ul.list-group').empty();
                 var features = waypts.features;
