@@ -172,8 +172,10 @@ var ListWaypointsApp = OpenLayers.Class({
                                 break;
                             case 'audio':
                                 var audio = $('audio');
+				audio.empty();
                                 audio.css('display','block');
                                 audio.append('<source src="' + file.media_url + '" type="' + file.content_type + '"/>');
+				audio.load();
                                 break;
                             case 'video':
                                 var video = $('#video-panel');
