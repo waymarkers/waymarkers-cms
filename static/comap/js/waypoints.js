@@ -52,13 +52,13 @@ var ListWaypointsApp = OpenLayers.Class({
         map = new OpenLayers.Map('map', {options: mapOptions});
         
         var bing_aerial = Layers.BING_AERIAL;
-        var tf_outdoors = Layers.OUTDOORS;
+        var osm = Layers.OSM;
         var townlands = Layers.OSM_TOWNLANDS;
-        tf_outdoors.options = {layers: "basic", isBaseLayer: true, visibility: true, displayInLayerSwitcher: true};
+        osm.options = {layers: "basic", isBaseLayer: true, visibility: true, displayInLayerSwitcher: true};
         bing_aerial.options = {layers: "basic", isBaseLayer: true, visibility: true, displayInLayerSwitcher: true};
-        map.addLayers([tf_outdoors, bing_aerial]);
+        map.addLayers([osm, bing_aerial]);
         bing_aerial.options = {layers: "basic", isBaseLayer: true, visibility: true, displayInLayerSwitcher: true};
-        map.addLayers([tf_outdoors, bing_aerial, townlands]);
+        map.addLayers([osm, bing_aerial]);
                
         /* Styles */
         var defaultLineStyle = new OpenLayers.Style({
